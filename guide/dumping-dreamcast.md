@@ -37,7 +37,7 @@ Before you do anything else, open the `.gdi` in a text editor. It lists every tr
 
 ## Convert to one CHD
 
-A `.gdi` won't boot if a single track goes missing, and the track files add up to a lot of loose data. `.chd` is one compressed file, and the [formats table](https://ifly-emu.com/guide/formats/) puts it at roughly 700 MB down to 300 MB. It comes from `chdman`, part of the MAME tools. On a Mac:
+A `.gdi` won't boot if a single track goes missing, and the track files add up to a lot of loose data. `.chd` is one compressed file, and the [formats table](formats.md) puts it at roughly 700 MB down to 300 MB. It comes from `chdman`, part of the MAME tools. On a Mac:
 
 ```bash
 brew install rom-tools
@@ -60,12 +60,12 @@ Game (Disc 1).chd
 Game (Disc 2).chd
 ```
 
-Import the discs and the playlist, and iFly groups them as one game. The [FAQ](https://ifly-emu.com/guide/faq/) has the same steps.
+Import the discs and the playlist, and iFly groups them as one game. The [FAQ](faq.md) has the same steps.
 
 ## Get it into iFly
 
-Add the `.chd` from the Files app, drag it onto the library on iPad, or upload it over Wi-Fi. If you skipped the conversion and kept a `.gdi`, pick the whole folder so every track comes along. See [Importing Games](https://ifly-emu.com/guide/importing/) for all four ways.
+Add the `.chd` from the Files app, drag it onto the library on iPad, or upload it over Wi-Fi. If you skipped the conversion and kept a `.gdi`, pick the whole folder so every track comes along. See [Importing Games](importing.md) for all four ways.
 
 ## Arcade discs are a different job
 
-Naomi, Naomi 2, and other arcade GD-ROM games come from arcade hardware, not a home Dreamcast. Their discs pair with a security chip and a DIMM board, so the steps on this page don't apply. The [Dumping Guide's Sega page](https://dumping.guide/discs/sega) points to the Redump team's documentation for those systems. For what iFly does with the files, see [Arcade & Naomi Rips](https://ifly-emu.com/guide/arcade/) and [BIOS Setup](https://ifly-emu.com/guide/bios/).
+Naomi, Naomi 2, and other arcade GD-ROM games come from arcade hardware, not a home Dreamcast. Their discs pair with a security chip and a DIMM board, so the steps on this page don't apply. The [Dumping Guide's Sega page](https://dumping.guide/discs/sega) points to the Redump team's documentation for those systems. For what iFly does with the files, see [Arcade & Naomi Rips](arcade.md) and [BIOS Setup](bios.md).
