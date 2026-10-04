@@ -14,6 +14,7 @@ A GD-ROM dump is a `.gdi` index plus separate track files (`.bin`, `.raw`, `.iso
 
 * A working Dreamcast that can boot a burned CD-R.
 * A Dreamcast SD card adapter (it plugs into the serial port, the one the link cable uses) and an SD card.
+* Room on that card for the whole disc. A full dump runs about 900 to 1000 MB, so a card with 2 GB free leaves headroom. The SD Rip page doesn't say which file system the card needs, so check its notes before you format it.
 * **Dreamcast SD Rip** v1.1, burned to a CD-R. The [Hidden Palace page](https://hiddenpalace.org/Dreamcast_SD_Rip) names DiscJuggler for the burn.
 * A computer with an SD card reader.
 
@@ -37,7 +38,7 @@ Before you do anything else, open the `.gdi` in a text editor. It lists every tr
 
 ## Convert to one CHD
 
-A `.gdi` won't boot if a single track goes missing, and the track files add up to a lot of loose data. `.chd` is one compressed file, and the [formats table](formats.md) puts it at roughly 700 MB down to 300 MB. It comes from `chdman`, part of the MAME tools. On a Mac:
+A `.gdi` won't boot if a single track goes missing, and the track files add up to a lot of loose data. `.chd` is one compressed file, and the [formats table](formats.md) notes it roughly halves disk use, though how much you save depends on the game. It comes from `chdman`, part of the MAME tools. On a Mac:
 
 ```bash
 brew install rom-tools
