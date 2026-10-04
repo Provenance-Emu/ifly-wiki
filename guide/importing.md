@@ -8,7 +8,7 @@ In iFly, add games from the Files app. Pick a single file (`.chd`, `.cdi`, `.gdi
 
 ## Drag-and-drop (iPad)
 
-On iPad (iOS 15+), drag files from Files, Safari downloads, or another app straight onto the iFly library grid.
+On iPad, drag files from Files, Safari downloads, or another app straight onto the iFly library grid.
 
 ## Wi-Fi upload (WebDAV / HTTP)
 
